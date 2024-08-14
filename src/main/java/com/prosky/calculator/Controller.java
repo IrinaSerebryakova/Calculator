@@ -15,22 +15,22 @@ public class Controller {
         return calculatorService.welcome();
     }
     @RequestMapping (path="/calculator/plus")
-    public String plus(int num1, int num2){
+    public String plus(Integer num1, Integer num2){
         return calculatorService.plus(num1, num2);
     }
 
     @RequestMapping (path="/calculator/minus")
-    public String minus(int num1, int num2){
+    public String minus(Integer num1, Integer num2){
         return calculatorService.minus(num1, num2);
     }
 
     @RequestMapping (path="/calculator/multiply")
-    public String multiply(int num1, int num2){
+    public String multiply(Integer num1, Integer num2){
         return calculatorService.multiply(num1, num2);
     }
 
     @RequestMapping (path="/calculator/divide")
-    public String divide(int num1, int num2){
+    public String divide(Integer num1, Integer num2){
         return calculatorService.divide(num1, num2);
     }
 
