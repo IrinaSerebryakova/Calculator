@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface CalculatorService {
   String welcome();
 
-  String plus(int num1, int num2);
+  String plus(Integer num1, Integer num2);
 
-  String minus(int num1, int num2);
+  String minus(Integer num1, Integer num2);
 
-  String multiply(int num1, int num2);
+  String multiply(Integer num1, Integer num2);
 
-  String divide(int num1, int num2);
+  String divide(Integer num1, Integer num2);
 }
