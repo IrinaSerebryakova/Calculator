@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
     private final CalculatorServiceImpl calculatorService;
-
     public Controller(CalculatorServiceImpl calculatorService) {
         this.calculatorService = calculatorService;
     }
