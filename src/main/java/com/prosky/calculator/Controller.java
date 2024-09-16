@@ -1,13 +1,12 @@
 package com.prosky.calculator;
 
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 
 @RestController
 public class Controller {
     private final CalculatorServiceImpl calculatorService;
-
     public Controller(CalculatorServiceImpl calculatorService) {
         this.calculatorService = calculatorService;
     }
@@ -36,5 +35,4 @@ public class Controller {
     public String divide(Integer num1, Integer num2) {
         return calculatorService.divide(num1, num2);
     }
-
 }

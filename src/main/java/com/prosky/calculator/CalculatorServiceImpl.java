@@ -13,8 +13,9 @@ public class CalculatorServiceImpl implements CalculatorService {
 
     @Override
     public String welcome() {
-        return "Добро пожаловать в калькулятор";
-    }
+            return "Добро пожаловать в калькулятор";
+        }
+
 
     @Override
     public String plus(@RequestParam Integer num1, @RequestParam Integer num2) {
